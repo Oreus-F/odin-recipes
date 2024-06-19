@@ -1,5 +1,7 @@
 .font{
+    background-color: whitesmoke;
     font-family: Verdana, Tahoma, sans-serif;
+    color: #ffad57
 }
 
 img{
@@ -8,4 +10,6 @@ img{
 
 p, li{
     text-align: justify;
+    color: black;
 }
+
