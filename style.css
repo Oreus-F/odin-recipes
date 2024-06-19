@@ -1,11 +1,12 @@
-.font{
-    background-color: whitesmoke;
-    font-family: Verdana, Tahoma, sans-serif;
-    color: #ffad57
+html{
+    font-size: 14px;
 }
 
-img{
-    align-self: center;
+body{
+    background-color: whitesmoke;
+    font-family: Verdana, Tahoma, sans-serif;
+    color: #ffad57;
+    font-weight: 200;
 }
 
 p, li{
