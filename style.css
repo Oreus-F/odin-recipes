@@ -1,0 +1,16 @@
+body{
+    background-color: aliceblue
+}
+
+h1{
+    font-family: Garamond, "Times New Roman", serif;
+    text-align: center; 
+}
+
+img{
+    align-self: center;
+}
+
+p, li{
+    text-align: justify;
+}
