@@ -4,7 +4,7 @@ html{
 }
 
 body{
-    background-color: whitesmoke;
+    background-color: white;
     font-family: Verdana, Tahoma, sans-serif;
     color: #ffad57;
     font-weight: 200;
@@ -44,5 +44,16 @@ body{
     border: 0.5px solid black;
 }
 
+.recipes-box{
+    padding: 10px;
+    width: 650px;
+    border: 0.5px solid black;
+    display: inline-block;
+}
 
-
+.helping-box{
+    
+    width: 250px;
+    border: 0.5px solid black;
+    display: inline-block
+}
