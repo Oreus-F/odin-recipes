@@ -6,8 +6,8 @@ html{
 body{
     background-color: white;
     font-family: Verdana, Tahoma, sans-serif;
-    color: #ffad57;
     font-weight: 200;
+    box-sizing: border-box;
 }
 
 .main-box-container{
@@ -45,6 +45,7 @@ body{
 }
 
 .recipes-box{
+    margin-right: 40px;
     padding: 10px;
     width: 650px;
     border: 0.5px solid black;
@@ -52,8 +53,30 @@ body{
 }
 
 .helping-box{
-    
     width: 250px;
-    border: 0.5px solid black;
-    display: inline-block
+    border: 0.5px solid #463f32;
+    display: inline-block;
+    margin-top: -50px;
+    padding: 10px;
+}
+
+.info-box{
+    display: inline-block;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+
+.prep-time, .cook-time, .total-time, .servings{
+    display: inline-block;
+    width: 100px;
+    margin-right: 5px;
+}
+
+h4{
+    color: #463f32;
+}
+
+.info-allign{
+    text-align: center;
+    padding: 2px;
 }
