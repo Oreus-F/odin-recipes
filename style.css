@@ -1,5 +1,6 @@
 html{
     font-size: 14px;
+    box-sizing: border-box;
 }
 
 body{
@@ -9,8 +10,39 @@ body{
     font-weight: 200;
 }
 
-p, li{
-    text-align: justify;
-    color: black;
+.main-box-container{
+    background-color: #463f32;
 }
+
+.top-screen{
+    height: 100px;
+    width: 1000px;
+    margin: 0px auto;
+    padding: 10px;
+}
+
+.top-screen img{
+    display: block;
+    height: 90px;
+    margin-top: 5px;
+    margin-left: 20px;
+    width: auto;
+}
+
+.top-screen h1{
+    font-family: serif;
+    width: 100px;
+    color: #D7CBC0;
+    margin: -70px 0 0 100px;
+}
+
+
+.first-box{
+    width: 1000px;
+    margin: 0px auto;
+    padding: 10px;
+    border: 0.5px solid black;
+}
+
+
 
