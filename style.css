@@ -53,17 +53,15 @@ body{
 }
 
 .helping-box{
-    width: 250px;
+    width: 217px;
     border: 0.5px solid #463f32;
-    display: inline-block;
-    margin-top: -50px;
+    display:inline-block;
     padding: 10px;
 }
 
 .info-box{
     display: inline-block;
-    margin-left: 20px;
-    margin-bottom: 40px;
+    text-align: center;
 }
 
 .prep-time, .cook-time, .total-time, .servings{
@@ -79,4 +77,8 @@ h4{
 .info-allign{
     text-align: center;
     padding: 2px;
+}
+
+.ingrebox{
+    margin-left: -10px;
 }
