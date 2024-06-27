@@ -11,7 +11,7 @@ body{
 }
 
 .main-box-container{
-    background-color: #463f32;
+    background-color: #685646;
 }
 
 .top-screen{
@@ -36,32 +36,43 @@ body{
     margin: -70px 0 0 100px;
 }
 
+.main-title-recipe{
+    text-align: left;
+    margin: 18px;
+    font-size: 40px;
+    
+}
+
 
 .first-box{
     width: 1000px;
     margin: 0px auto;
     padding: 10px;
-    border: 0.5px solid black;
 }
 
 .recipes-box{
     margin-right: 40px;
-    padding: 10px;
+    padding: 20px;
     width: 650px;
-    border: 0.5px solid black;
     display: inline-block;
 }
 
 .helping-box{
     width: 217px;
-    border: 0.5px solid #463f32;
     display:inline-block;
     padding: 10px;
+    vertical-align: top;
+    border: 1px solid #685646;
+}
+
+.recipes-box-font{
+    font-size: 16px;
 }
 
 .info-box{
     display: inline-block;
     text-align: center;
+    border-bottom: 1px solid #685646;
 }
 
 .prep-time, .cook-time, .total-time, .servings{
@@ -70,8 +81,8 @@ body{
     margin-right: 5px;
 }
 
-h4{
-    color: #463f32;
+h4, h3, h2, h1{
+    color: #573f28;
 }
 
 .info-allign{
@@ -81,4 +92,15 @@ h4{
 
 .ingrebox{
     margin-left: -10px;
+}
+
+.tip-border{
+    border-top: 1px solid #685646;
+}
+
+
+
+li{
+    line-break: auto;
+    line-height: 18px
 }
